@@ -1,0 +1,11 @@
+﻿  Streaming.cpp
+E:\Dev\Streaming\Streaming\Temporada.h(65,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+E:\Dev\Streaming\Streaming\Temporada.h(68,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+E:\Dev\Streaming\Streaming\Temporada.h(73,62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Dev\Streaming\Streaming\Temporada.h(80,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Dev\Streaming\Streaming\Temporada.h(89,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Dev\Streaming\Streaming\Streaming.cpp(31,148): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Dev\Streaming\Streaming\Streaming.cpp(32,137): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Dev\Streaming\Streaming\Streaming.cpp(34,25): warning C4305: 'argument': truncation from 'double' to 'float'
+     Creating library E:\Dev\Streaming\x64\Debug\Streaming.lib and object E:\Dev\Streaming\x64\Debug\Streaming.exp
+  Streaming.vcxproj -> E:\Dev\Streaming\x64\Debug\Streaming.exe
