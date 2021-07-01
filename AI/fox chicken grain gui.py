@@ -32,7 +32,7 @@ def main():
     # How fast it shows the best state possible (wait time between each trip in miliseconds)
     speed = 700
 
-    background_colour = (234, 212, 252)
+    background_colour = (204, 255, 204)
     screen = pygame.display.set_mode((800, 600))
     pygame.display.set_caption('Fox, Chicken, Grain')
 
@@ -88,7 +88,11 @@ def main():
         
             # Check for QUIT event      
             if event.type == pygame.QUIT:
-                running = False
+                pygame.quit()
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    pygame.quit()
+
         pygame.time.wait(speed)
         step += 1
 
